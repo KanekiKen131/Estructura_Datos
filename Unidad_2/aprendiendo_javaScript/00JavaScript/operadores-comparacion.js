@@ -77,3 +77,16 @@ let conectado = false;
 if (!conectado) {
   console.log("Inicia sesión"); //  !false = true
 }
+
+//Operdadores realizados en clase
+const a = 10
+const b = 20
+const c = '30'
+a == b
+console.log(a == b)
+a === b
+console.log(a === b)
+a === c
+console.log(a === c)
+a == 'c'
+console.log(a === 'c')
