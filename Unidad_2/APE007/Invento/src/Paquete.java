@@ -1,5 +1,8 @@
+    /*
+    Author: Leonel Lima (LMess131)
+    */
 public class Paquete {
-    private int id;
+    int id;
     private int codigoPostal;
 
     public Paquete(int id, int codigoPostal) {
