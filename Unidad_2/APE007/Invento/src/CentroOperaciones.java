@@ -14,7 +14,7 @@ public class CentroOperaciones {
     Author: Leonel Lima (LMess131)
     */
     public static int buscarBinario(Paquete[] lista, int id) {
-        // Validar que el arreglo esté ordenado antes de buscar
+        //Valida que el arreglo esté ordenado antes de buscar
         for (int i = 0; i < lista.length - 1; i++) {
             if (lista[i].id > lista[i + 1].id) {
                 throw new IllegalStateException(

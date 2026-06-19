@@ -1,5 +1,5 @@
     /*
-    Author: Leonel Lima (LMess131)
+    Author:Leonel Lima (LMess131)
     */
 public class Paquete {
     int id;
