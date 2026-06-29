@@ -10,7 +10,6 @@ function recorridoInorden(raiz) {
 // TODO: Implementar el recorrido recursivo
 if (raiz === null) return [];
 
-  // Caso Recursivo: Izquierdo → Raíz → Derecho
   return [
     recorridoInorden(raiz.izquierdo),
     raiz.valor,
@@ -21,7 +20,6 @@ function recorridoPreorden(raiz) {
 // TODO: Implementar el recorrido recursivo
   if (raiz === null) return [];
 
-  // Caso Recursivo: Raíz → Izquierdo → Derecho
   return [
     raiz.valor,
     recorridoPreorden(raiz.izquierdo),
@@ -32,10 +30,9 @@ function recorridoPostorden(raiz) {
 // TODO: Implementar el recorrido recursivo
  if (raiz === null) return [];
 
-  // Caso Recursivo: Izquierdo → Derecho → Raíz
   return [
     recorridoPostorden(raiz.izquierdo),
     recorridoPostorden(raiz.derecho),
     raiz.valor
-  ];
+  ]
 }
